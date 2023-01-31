@@ -3,5 +3,5 @@
 <h2> Assignment
 <h2/>
  
- <h3> c | c++ | html 
+ <h3> C | C++ | HTML 
  <h3/>
