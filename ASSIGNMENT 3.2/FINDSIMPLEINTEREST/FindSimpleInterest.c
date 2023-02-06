@@ -1,3 +1,6 @@
+
+// Find Simple
+
 #include<stdio.h>
 int main()
 
