@@ -1,0 +1,136 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(15, 0, 24);
+}
+.logo {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  left: 30px;
+}
+.text:hover {
+  display: flex;
+  text-decoration: underline solid 1px;
+  text-underline-offset: 8px;
+}
+.color-nav {
+  background-color: rgb(15, 0, 24);
+  color: white;
+}
+
+.search {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid rgb(114, 110, 110);
+  background-color: rgb(8, 8, 8);
+  color: white;
+  z-index: 5;
+}
+
+.login {
+  margin-left: 5px;
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  border: solid white 1px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  z-index: 2;
+}
+.buy {
+  margin-left: 5px;
+  border-radius: 6px;
+  border: rgb(138, 50, 205);
+  height: 30px;
+  width: 120px;
+  background-color: rgb(138, 50, 205);
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  z-index: 2;
+}
+.form{
+    display: flex;
+}
+.line {
+  /* position: absolute; */
+  /* top: 25px; */
+  /* left: 1340px; */
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 30px;
+  /* border: 1px solid rgb(170, 168, 168); */
+  /* border-radius: 8px; */
+  /* margin-top: 13px; */
+  z-index: 2;
+}
+.nav1 {
+  position: absolute;
+  left: 140px;
+  top: 25px;
+}
+.nav2 {
+  position: absolute;
+  left: 210px;
+  top: 25px;
+}
+.nav3 {
+  position: absolute;
+  left: 300px;
+  top: 25px;
+}
+.nav4 {
+  position: absolute;
+  left: 380px;
+  top: 25px;
+}
+.nav5 {
+  position: absolute;
+  left: 475px;
+  top: 25px;
+}
+.nav6 {
+  position: absolute;
+  top: 34px;
+  left: 540px;
+}
+.slde {
+    background-color: black;
+    color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    height: 550px;
+  }
+  .slde img {
+  height: 500px;
+  width: 0px;
+}
+.b1 {
+    position: relative;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    left: 20px;
+  }
+  .m-1{
+    border-radius: 5px;
+  }
+  
+  .slider-container{
+    overflow:  scroll ; 
+  
+  }
+  
+  .slider-image {
+    flex: 0 0 100%;
+
+  }
