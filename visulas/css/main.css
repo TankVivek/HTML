@@ -4972,7 +4972,7 @@ a img {
 .down .icon:hover,
 .footer a:active,
 .footer a:hover {
-    color: #4b5664
+    color: #2b2d2e
 }
 
 #about {
@@ -5111,26 +5111,29 @@ a img {
 .footer {
     background: #1488CC;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, #292f9b, #1488CC);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #31379e, #1488CC);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 10px 0;
-    margin-top: 50px;
-    text-align: center;
+    width: 100%;
+    /* height: 60%; */
+    height: 100%;
+    /* text-align: center;
     color: #fff;
-    display: flex;
+
     flex-direction: column;
     justify-content: center;
     font-size: 20px;
-    align-items: center;
+    align-items: center; */
+
+    display: flex;
 }
-.footer > div{
+/* .footer > div{
     margin-top: 0px;
     width: 30%;
     height: 300px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
+} */
 
 .footer .love {
     color: red
@@ -5290,3 +5293,29 @@ a img {
   #emailHover:hover{
         color: orange;
   }
+  .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* ====================================== */
+
+
+.contact_me {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#emailHover:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact_me h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+.contact_me p {
+  color: white;
+  margin-bottom: 15px;
+}
