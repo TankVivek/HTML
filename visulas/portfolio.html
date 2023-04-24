@@ -8,7 +8,7 @@
     <!-- Import CSS: Main Stylesheet -->
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/nav.css">
-      <link rel="icon" href="https://t3.ftcdn.net/jpg/02/42/54/58/240_F_242545822_G3FjaGZvB1XhLSLDpN1ZM64gRxce4F3B.jpg">
+    <link rel="icon" href="https://t3.ftcdn.net/jpg/02/42/54/58/240_F_242545822_G3FjaGZvB1XhLSLDpN1ZM64gRxce4F3B.jpg">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -25,7 +25,7 @@
         <div class="container">
             <h1 class="logo"><a href="index.htm"></a></h1>
             <ul>
-                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="" class="current">Home</a></li>
                 <li><a class="link" href="#about" data-scroll>About Me</a></li>
                 <li><a class="link" href="#skills" data-scroll>Skills</a></li>
                 <li><a class="link" href="#projects" data-scroll>Projects</a></li>
@@ -41,14 +41,13 @@
                 <span class="site-description mb-4">Programmer • Web Developer </span>
             </h1>
             <div class="header-icons">
-
-                <a class="project-link resumeClass" target="_blank"
-                    href="https://drive.google.com/file/d/1iCu7a_nhUMXzcn-YtTU1C-4FR11DwU3Q/view?usp=share_link">Resume
-                    &nbsp;
-                    <i class="fa-solid fa-file"></i>
+                <a class=" resumeClass" target="_blank"
+                    href="https://drive.google.com/file/d/1iCu7a_nhUMXzcn-YtTU1C-4FR11DwU3Q/view?usp=share_link">
+                    <span class="resume-text">Resume</span>
+                    <i class="fas fa-file"></i>
                 </a>
-
             </div>
+
 
         </div>
 
@@ -76,80 +75,91 @@
                 knowledge to real-world projects.
             </p>
         </div>
+    </section>
 
-        <!-- User Specifics -->
-        <h1 id="skills" style="text-align:center;">Technical Skills</h1>
-        <div class="user">
+
+    <!-- User Specifics -->
+    <h1 id="skills" style="text-align:center;">Technical Skills</h1>
+
+
+    <div class="container text-center mb-5">
+        <div class="row">
             <!-- Technology Stack #1: Languages -->
-
-            <div class="tech">
+            <div class="col-md-6 ">
                 <h2>Languages</h2>
-                <img src="https://skillicons.dev/icons?i=js">
-                <img src="https://skillicons.dev/icons?i=c">
-
-
+                <br>
+                <div>
+                    <img src="https://skillicons.dev/icons?i=js">
+                    <img src="https://skillicons.dev/icons?i=c">
+                </div>
+                <br>
                 <p>My favorite languages for software engineering</p>
             </div>
 
+            <!-- Technology Stack #4: Tools -->
+            <div class="col-md-6">
+                <h2>Tools</h2>
+                <br>
+                <div>
+                    <img src="https://skillicons.dev/icons?i=git">
+                    <img src="https://skillicons.dev/icons?i=vscode">
+                    <img src="https://skillicons.dev/icons?i=github">
+                </div>
+                <br>
+                <p>My favorite tools for version control, code editing, and container orchestration.</p>
+            </div>
+
+            <br>
+
             <!-- Technology Stack #2: Front-End -->
-            <div class="tech">
+            <div class="col-md-6">
                 <h2>Front-End</h2>
-
-                <img src="https://skillicons.dev/icons?i=bootstrap">
-
-                <img src="https://skillicons.dev/icons?i=html">
-
-                <img src="https://skillicons.dev/icons?i=css">
+                <br>
+                <div><img src="https://skillicons.dev/icons?i=bootstrap">
+                    <img src="https://skillicons.dev/icons?i=html">
+                    <img src="https://skillicons.dev/icons?i=css">
+                </div>
+                <br>
 
                 <p>My preferred technologies for front-end web development and component design.</p>
             </div>
 
             <!-- Technology Stack #3: Back-End -->
-            <div class="tech">
+            <div class="col-md-6">
                 <h2>Back-End</h2>
-                <img src="https://skillicons.dev/icons?i=nodejs">
-
-                <img src="https://skillicons.dev/icons?i=express">
-
-                <img src="https://skillicons.dev/icons?i=mongodb">
-
+                <br>
+                <div> <img src="https://skillicons.dev/icons?i=nodejs">
+                    <img src="https://skillicons.dev/icons?i=express">
+                    <img src="https://skillicons.dev/icons?i=mongodb">
+                </div>
+                <br>
                 <p>My preferred technologies for back-end web programming and database architecture.</p>
             </div>
+        </div>
+    </div>
 
-            <!-- Technology Stack #4: Tools -->
-            <div class="tech">
-                <h2>Tools</h2>
 
-                <img src="https://skillicons.dev/icons?i=git">
-
-                <img src="https://skillicons.dev/icons?i=vscode">
-
-                <img src="https://skillicons.dev/icons?i=github">
-
-                <p>My favorite tools for version control, code editing, and container orchestration.</p>
+    <div class="mb-5">
+        <h1 style="text-align: center; color: #000000;" class="mb-5">My Statistics</h1>
+        <!-- Skills Content -->
+        <div id="imageContainer">
+            <div>
+                <img width="100%"
+                    src="https://github-readme-stats.vercel.app/api?username=TankVivek&show_icons=true&count_private=true&hide_border=true&title_color=#ffffff&icon_color=#ffffff&text_color=#000&bg_color=0d1117"
+                    alt=" Vitor Hugo github stats" />
+            </div>
+            <div>
+                <img width="100%"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=TankVivek&layout=compact&hide_border=true&title_color=#ffffff&text_color=#000&bg_color=0d1117" />
             </div>
         </div>
-    </section>
 
-
-    <h1 style="text-align: center; color: #000000;" class="mb-5">My Statistics</h1>
-    <!-- Skills Content -->
-    <div id="imageContainer">
-        <div>
-            <img width="100%"
-                src="https://github-readme-stats.vercel.app/api?username=TankVivek&show_icons=true&count_private=true&hide_border=true&title_color=#ffffff&icon_color=#ffffff&text_color=#000&bg_color=0d1117"
-                alt=" Vitor Hugo github stats" />
-        </div>
-        <div>
-            <img width="100%"
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=TankVivek&layout=compact&hide_border=true&title_color=#ffffff&text_color=#000&bg_color=0d1117" />
-        </div>
     </div>
 
 
     <!--My Github Calender  -->
 
-    <div style="text-align:center" class="">
+    <div style="text-align:center" class="mb-5">
         <h1 class="mb-5">My Github Calender</h1>
         <img style="height: 150px; width:auto ;" src="https://ghchart.rshah.org/TankVivek" alt="">
 
@@ -159,9 +169,8 @@
 
     <!-- footer  -->
 
-    <footer class="footer " id="contact">
-
-        <form class="footer-1 col-3">
+    <footer class="footer" id="contact">
+        <form class="col-3 ">
             <h2 class="text-center text-white mb-4">Get in touch</h2>
             <div class="form-group">
                 <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
@@ -171,44 +180,38 @@
                 <div class="invalid-feedback">Please enter a valid email address.</div>
             </div>
             <div class="form-group">
-                <textarea class="form-control" placeholder="Your Message" id="message" name="message" rows="5"
+                <textarea class="form-control" placeholder="Your Message" id="message" name="message" rows="2"
                     required></textarea>
             </div>
             <div class="form-group text-center">
-                <button type="button" class="btn btn-primary btn-lg" onclick="sendEmail()">Send
-                    Message</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="sendEmail()">Send Message</button>
             </div>
         </form>
 
-
-        <div class="contact_me footer-2 mb-5">
-
+        <div class="contact_me col-5 ">
             <h1 style="color: white;">Contact </h1>
             <p>Contact Number - 8155908006</p>
-            <p><a id="emailHover" href="mailto:vivektank136@gmail.com">Email Address- vivektank136@gmail.com
-                </a> </p>
+            <p><a id="emailHover" href="mailto:vivektank136@gmail.com">Email Address- vivektank136@gmail.com</a></p>
             <p>Address- Surat, Gujarat</p>
 
-            <a class="project-link" id="linkdk" style="padding: 5px 40px 5px 40px ;" target="_blank"
+            <a class="project-link" id="linkdk" style="padding: 3px 30px 3px 30px ;" target="_blank"
                 href="https://www.linkedin.com/in/vivek-tank/"><i style="font-size:40px ;" class="icon fa fa-linkedin "
                     aria-hidden="true"></i></a>
 
-            <a class="project-link" id="linkd" style="padding: 5px 40px 5px 40px ;" target="_blank"
+            <a class="project-link" id="linkd" style="padding: 3px 30px 3px 30px ;" target="_blank"
                 href="https://github.com/TankVivek"><i style="font-size:40px ;" class="fa fa-github"
                     aria-hidden="true"></i></a>
 
-            <a class="project-link" id="linkd" style="padding: 5px 40px 5px 40px ;" href="mailto:vivektank136@gmail.com"
+            <a class="project-link" id="linkd" style="padding: 3px 30px 3px 30px ;" href="mailto:vivektank136@gmail.com"
                 target="_blank" href="https://github.com/Vaibhav2416"><i style="font-size:40px ;"
                     class="icon fa fa-envelope" aria-hidden="true"></i></a>
-
         </div>
-
-
-
     </footer>
 
 
+
     <!-- footer -->
+
 
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
