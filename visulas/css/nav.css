@@ -90,7 +90,11 @@
   .contact__form {
     position: relative;
   }
-  .footer-1{
+
+/* --------------------------------- */
+
+
+  /* .footer-1{
     position: relative;
     right: 400px;
     top: 0px;
@@ -99,4 +103,103 @@
     position: absolute;
     left: 800px;
   }
-/* --------------------------------- */
+
+
+
+  /* Media query for mobile screens */
+  @media only screen and (max-width: 767px) {
+    .footer-desktop {
+      display: none;
+    }
+
+    .footer-mobile {
+      display: block;
+    }
+
+    .col-3 {
+      position: relative;
+      left: 200px;
+
+    }
+
+    .col-5 {
+      position: absolute;
+      left: 400px;
+      bottom: 40px;
+
+    }
+  }
+  
+  
+  @media only screen and (min-width: 768px) {
+    .footer-desktop {
+      display: block;
+    }
+
+    .footer-mobile {
+      display: none;
+    }
+
+    .col-3 {
+      position: relative;
+      left: 150px;
+    }
+
+    .col-5 {
+      position: absolute;
+      left: 325px;
+      bottom: 40px;
+    }
+  }
+  
+          
+ /* ======================== */
+ .header-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.resumeClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right,  #4c7fdd, #366ed6);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.resumeClass:hover {
+  background-color: #fff;
+  color: #000000;
+  border: #cecaca;
+  text-decoration: none;
+
+}
+
+.resumeClass:hover .resume-text {
+  color: #2a2e32;
+}
+
+.resumeClass .fa-file {
+  margin-left: 10px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.resumeClass:hover .fa-file {
+  transform: rotate(360deg);
+}
+
+/* ====================
+
+
+
